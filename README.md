@@ -57,3 +57,5 @@ To attempt to increase model performance, I tried several optimization approache
 ## Summary
 
 Overall, my attempts to optimize the model failed to improve the accuracy score, but maintained the accuracy from its initial build. 72% is not ideal but is an acceptable starting point in evaluating potential investments. Still, aiming to optimize the model to perform about 75% accuracy would make the the model more reliable and useful when it comes to financial decision-making. Additional attempts at optimization could include eliminating other features that may make the data noisy, or perhaps bucketing the ASK_AMT column and running several models for each of the different cost categories. 
+
+Another potential model to look into is PyTorch as it can handle larger datasets more easily and runs faster than Keras while still maintaining flexibility and debugging capabilities.
